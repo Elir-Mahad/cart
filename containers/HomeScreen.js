@@ -1,19 +1,20 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-const ShoppingCart = () => {
+const HomeScreen = () => {
 	return (
 		<View style={styles.container}>
-			<Text>Shopping Cart</Text>
+			<Text>Home Screen</Text>
 		</View>
 	);
 };
 
-export default ShoppingCart;
+export default HomeScreen;
 
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
+		backgroundColor: "#fff",
 		alignItems: "center",
 		justifyContent: "center"
 	}
