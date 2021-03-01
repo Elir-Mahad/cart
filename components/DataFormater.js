@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { View, StyleSheet, Button } from "react-native";
+//
+import { Entypo } from "@expo/vector-icons";
 
 class DataFormater extends Component {
 	//This component is responsible for formating the data thats in data.js
@@ -13,13 +15,19 @@ class DataFormater extends Component {
 			// classify each product with its unique index --> (item, index)
 			return (
 				// return
-				<View key={index} style={{ padding: 20 }}>
+				<View key={index} style={styles.buttonlike}>
 					<Button
 						// A button
 						title={item.name + " - " + item.price}
 						// Inside the button
 						// grab and display the items name --> item.name
 						// grab and display the items price --> item.price
+					/>
+					<Entypo
+						//
+						name="heart-outlined"
+						size={54}
+						color="black"
 					/>
 				</View>
 			);
@@ -46,5 +54,10 @@ const styles = StyleSheet.create({
 		flex: 1,
 		alignItems: "center",
 		justifyContent: "center"
+	},
+	buttonlike: {
+		padding: 10,
+		margin: 10,
+		backgroundColor: "pink"
 	}
 });
