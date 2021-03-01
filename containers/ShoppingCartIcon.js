@@ -1,21 +1,20 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+import Icon from "react-native-vector-icons/Ionicons";
 
 const ShoppingCartIcon = () => {
 	return (
 		<View style={styles.container}>
-			<Text style={styles.text}>Shopping cart icon</Text>
+			<Icon name="ios-cart" size={30} />
+			<Text>0</Text>
 		</View>
 	);
 };
 
 export default ShoppingCartIcon;
 
-// const styles = StyleSheet.create({
-// 	container: {
-// 		color: "white"
-// 	},
-// 	text: {
-// 		color: "white"
-// 	}
-// });
+const styles = StyleSheet.create({
+	container: {
+		padding: 5
+	}
+});

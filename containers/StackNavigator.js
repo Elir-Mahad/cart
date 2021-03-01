@@ -15,9 +15,9 @@ import ShoppingCartIcon from "./ShoppingCartIcon";
 
 const globalScreenOptions = {
 	// The constant globalScreenOptions stores the below css styles
-	headerStyle: { backgroundColor: "#222831" },
-	headerTitleStyle: { color: "white" },
-	headerTintiColor: "white",
+	// headerStyle: { backgroundColor: "#222831" },
+	headerTitleStyle: { color: "black" },
+	headerTintiColor: "black",
 	headerTitle: "Shopping App",
 	headerRight: () => <ShoppingCartIcon />
 };
