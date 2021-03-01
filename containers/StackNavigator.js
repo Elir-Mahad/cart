@@ -33,7 +33,7 @@ const StackNavigator = () => {
 				component={HomeScreen} // Import the component
 			/>
 			<Stack.Screen
-				name="Electronics " // Give the component a name
+				name="Electronics" // Give the component a name
 				component={ElectronicsScreen} // Import the component
 			/>
 			<Stack.Screen
