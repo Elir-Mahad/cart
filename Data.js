@@ -1,4 +1,4 @@
-export const electronics = [
+export const Electronic_items = [
 	{
 		id: 1,
 		name: "fifa 19",
@@ -16,7 +16,7 @@ export const electronics = [
 	}
 ];
 
-export const books = [
+export const Book_items = [
 	{
 		id: 4,
 		name: "How to kill a mocking bird",

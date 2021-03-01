@@ -18,7 +18,6 @@ const globalScreenOptions = {
 	// headerStyle: { backgroundColor: "#222831" },
 	headerTitleStyle: { color: "black" },
 	headerTintiColor: "black",
-	headerTitle: "Shopping App",
 	headerRight: () => <ShoppingCartIcon />
 };
 
