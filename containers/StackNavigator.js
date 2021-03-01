@@ -9,6 +9,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import HomeScreen from "./HomeScreen";
 import ElectronicsScreen from "./ElectronicsScreen";
 import BooksScreen from "./BooksScreen";
+import ShoppingCartIcon from "./ShoppingCartIcon";
 
 //!--- Declare the global screen options and initialize the createStackNaviagtor
 
@@ -16,7 +17,9 @@ const globalScreenOptions = {
 	// The constant globalScreenOptions stores the below css styles
 	headerStyle: { backgroundColor: "#222831" },
 	headerTitleStyle: { color: "white" },
-	headerTintiColor: "white"
+	headerTintiColor: "white",
+	headerTitle: "Shopping App",
+	headerRight: () => <ShoppingCartIcon />
 };
 
 const Stack = createStackNavigator();
